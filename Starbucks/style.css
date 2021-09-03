@@ -6,6 +6,15 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+html, body{
+  height: 100%;
+  overflow-y: hidden;
+}
+
+header{
+  padding: 20px 0;
+}
+
 .center{
   display: flex;
   flex-wrap: wrap;
