@@ -71,6 +71,7 @@ section .about{
   position: absolute;
   right: 510px;
   top: 200px;
+  cursor: pointer;
 }
 
 .social-media img{
