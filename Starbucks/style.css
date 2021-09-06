@@ -17,7 +17,7 @@ html, body{
 }
 
 header{
-  height: 200px;
+  height: 150px;
   padding: 20px 0;
 }
 
@@ -56,13 +56,12 @@ section .about{
   bottom: -450px;
   right: -500px;
   width: 1050px;
-  height: 1000px;
+  height: 970px;
   border-radius: 50%;
   background-color: var(--cor1);
 }
 
 #copo-grande{
-  height: 50%;
   height: 500px;
   width: 350px;
 }
@@ -102,4 +101,10 @@ section .about{
   border: none;
   color: white;
   cursor: pointer;
+}
+
+.rodape{
+  position: fixed;
+  bottom: 0;
+  padding-left: 500px;
 }
