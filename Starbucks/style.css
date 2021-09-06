@@ -6,12 +6,18 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+:root{
+  --cor1: #017143;
+}
+
 html, body{
   height: 100%;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 header{
+  height: 200px;
   padding: 20px 0;
 }
 
@@ -38,4 +44,61 @@ header{
   text-decoration: none;
   margin-right: 15px;
   font-weight: bold;
+}
+
+section .about{
+  height: calc(100%-200px);
+  position: relative;
+}
+
+.extras{
+  position: absolute;
+  bottom: -450px;
+  right: -500px;
+  width: 1050px;
+  height: 1000px;
+  border-radius: 50%;
+  background-color: var(--cor1);
+}
+
+#copo-grande{
+  height: 50%;
+  height: 500px;
+  width: 350px;
+}
+
+.social-media{
+  position: absolute;
+  right: 510px;
+  top: 200px;
+}
+
+.social-media img{
+  display: block;
+  margin: 20px 0;
+  width: 20px;
+}
+
+.txt{
+  margin-top: 100px;
+}
+
+.txt h1{
+  font-size: 40px;
+}
+
+.txt p{
+  margin: 20px 0;
+  max-width: 700px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.txt input{
+  background-color: var(--cor1);
+  border-radius: 20px;
+  padding: 10px 30px;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
